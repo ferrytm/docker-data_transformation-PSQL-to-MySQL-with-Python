@@ -1,0 +1,17 @@
+#installation Process 
+
+#postgres docker image installation
+docker pull postgres
+
+#test running the postgres image
+ docker run --name PSQLDB -e POSTGRES_PASSWORD=henshin -d -p 5432:5432 postgres
+
+#mysql docker image installation
+docker pull mysql
+
+#test running the MYSQL image
+docker run --name mysqlDB -e MYSQL_ROOT_PASSWORD=henshin -d -p 3306:3306 mysql
+
+#verify the running images 
+docker ps
+
