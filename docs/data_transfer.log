@@ -1,0 +1,6 @@
+2024-03-24 22:46:21,503 - INFO - Step 1: Writing DataFrame to PostgreSQL Table
+2024-03-24 22:46:22,162 - INFO - Step 1: Data successfully written to PostgreSQL table
+2024-03-24 22:46:22,162 - INFO - Data from DataFrame written to PostgreSQL table. 6513 rows processed. Time taken: 0.66 seconds
+2024-03-24 22:46:22,412 - INFO - Step 2: read PostgreSQL table and load to MySQL
+2024-03-24 22:46:23,279 - INFO - Step 2: Data successfully written to Mysql table
+2024-03-24 22:46:23,279 - INFO - Data from PostgreSQL table loaded into MySQL. 5575 rows processed. Time taken: 0.87 seconds
